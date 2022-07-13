@@ -13,7 +13,7 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.start-btn {
+#start-btn {
   position: absolute;
   left: 44vw;
   top: 50%;
@@ -23,13 +23,13 @@ body {
   box-shadow: 0 1rem 0.7rem rgba(0, 0, 0, 0.4);
 }
 
-.start-btn:hover,
-.start-btn:focus {
+#start-btn:hover,
+#start-btn:focus {
   background-color: rgb(64, 227, 248);
   box-shadow: unset;
   cursor: pointer;
 }
 
-.start-btn:active {
+#start-btn:active {
   background-color: rgb(223, 235, 59);
 }
