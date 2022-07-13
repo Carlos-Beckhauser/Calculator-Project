@@ -14,10 +14,8 @@ const startButton = () => {
   el.on("click", () => {
     $(".start-message").slideUp();
     $(el).slideUp();
+    $(calc).slideDown();
   });
-  /*  el.on("click", () => {
-    handleclick().slideDown();
-  }); */
 };
 
 $(document).ready(() => {
