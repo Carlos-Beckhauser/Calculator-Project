@@ -11,40 +11,125 @@ body {
   height: 100vh;
 }
 
+/*Mobile*/
 .start-message {
   position: absolute;
-  left: 22vw;
-  top: 33%;
   text-transform: uppercase;
-  font-size: 4rem;
   color: rgb(255, 255, 255);
+
+  left: 0;
+  top: 36%;
+  text-align: center;
+  font-size: 2.4rem;
 }
 
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .start-message {
+    left: 22vw;
+    top: 33%;
+    text-align: unset;
+    font-size: 4rem;
+  }
+}
+
+/*Mobile*/
 #start-btn {
   position: absolute;
-  left: 44vw;
-  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
   text-transform: uppercase;
   border: unset;
-  font-size: 1.5rem;
   box-shadow: 0 1rem 0.7rem rgba(0, 0, 0, 0.4);
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  background-color: white;
+
+  top: 54%;
+  font-size: 1.5rem;
+  width: 15rem;
 }
 
-#start-btn:hover,
-#start-btn:focus {
-  background-color: rgb(64, 227, 248);
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  #start-btn {
+    top: 50%;
+    font-size: 2.5rem;
+    width: unset;
+  }
+}
+
+#start-btn:hover {
+  background: rgb(182, 182, 182);
   box-shadow: unset;
   cursor: pointer;
 }
 
+#start-btn:focus,
 #start-btn:active {
-  background-color: rgb(223, 235, 59);
+  background-image: linear-gradient(to right, #4c00fffa, #ff00b1);
+  box-shadow: unset;
+  cursor: pointer;
 }
 
+#result {
+  text-align: right;
+  font-size: 2.875rem;
+}
+
+/*Mobile*/
 .calculator {
   position: absolute;
   top: 50vh;
   left: 50vw;
   transform: translate(-50%, -50%);
   display: none;
+  background-color: black;
+  color: white;
+  border-radius: 0.9375rem;
+
+  padding: 0.5rem;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .calculator {
+    padding: 1.9375rem;
+  }
+}
+
+.calculator h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0.9375rem;
+  font-size: 2.3rem;
+}
+
+.calculator p {
+  height: 3rem;
+  width: 21.7rem;
+  background: white;
+  padding: 6px 0;
+  margin: 5px 5px;
+  position: relative;
+  left: 2px;
+  color: black;
+}
+
+.calc-btn {
+  width: 5.125rem;
+  height: 5.125rem;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  margin: 0.1875rem;
+}
+
+.calc-btn:hover {
+  background-color: rgb(82, 82, 82);
+}
+
+.calc-btn:active {
+  background-color: rgb(175, 175, 175);
 }
