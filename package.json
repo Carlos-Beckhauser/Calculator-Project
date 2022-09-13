@@ -1,0 +1,20 @@
+{
+  "name": "calculator-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos-Beckhauser/Calculator-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos-Beckhauser/Calculator-Project/issues"
+  },
+  "homepage": "https://github.com/Carlos-Beckhauser/Calculator-Project#readme"
+}

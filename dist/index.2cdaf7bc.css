@@ -1,0 +1,44 @@
+body {
+  box-sizing: border-box;
+  background-color: #2a68a3;
+  font-size: 16px;
+}
+
+.start-message {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 4rem;
+  position: absolute;
+  top: 33%;
+  left: 22vw;
+}
+
+#start-btn {
+  text-transform: uppercase;
+  border: unset;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 44vw;
+  box-shadow: 0 1rem .7rem #0006;
+}
+
+#start-btn:hover, #start-btn:focus {
+  box-shadow: unset;
+  cursor: pointer;
+  background-color: #40e3f8;
+}
+
+#start-btn:active {
+  background-color: #dfeb3b;
+}
+
+.calculator {
+  visibility: hidden;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
